@@ -46,3 +46,17 @@ pyspark  --master spark://192.168.1.110:7077 --driver-memory 6G --executor-memor
 
 Check the port numbers on console for Web UI,
  
+ 
+ 
+Sample python code to run
+
+```
+sc.parallelize([1,2,3,4,5,6,7,8,9,10]).min()
+```
+
+Sample Scala code for spark-shell
+
+
+```
+sc.parallelize(List(1,2,3,4,5,6,7,8,9,10)).min()
+```
