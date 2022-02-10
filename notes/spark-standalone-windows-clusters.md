@@ -31,6 +31,10 @@ Stop the spark shell,
 
 start the spark shell with specific requirements..
 open  anaconda py37 command prompt
+
+```
+pyspark  --master spark://95.217.182.4:7077 --driver-memory 2G --executor-memory 2G --executor-cores 1
+```
  
 ```
 pyspark  --master spark://192.168.1.110:7077 --driver-memory 6G --executor-memory 4G --executor-cores 2
